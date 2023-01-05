@@ -2,9 +2,16 @@ package com.git;
 
 public class StringReverse {
 	
-	private void two() {
-		System.out.println("two");
+//<<<<<<< HEAD
+//	
+//=======
+private void two() {
+	System.out.println("two");
+}
+	private void one() {
+		System.out.println("one");
 	}
+//>>>>>>> 67604889be8db21dc01fbea995f155dcefcc38ec
 
 	public static void main(String[] args) {
 		String s = "New Code";

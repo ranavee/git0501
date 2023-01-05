@@ -1,6 +1,10 @@
 package com.git;
 
 public class StringReverse {
+	
+	private void two() {
+		System.out.println("two");
+	}
 
 	public static void main(String[] args) {
 		String s = "New Code";
